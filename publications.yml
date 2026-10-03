@@ -1,0 +1,30 @@
+# One block per publication. Fields:
+#   title, authors, venue, year  (required)
+#   doi:    the DOI only, without https://doi.org/
+#   status: optional label, e.g. preprint
+
+- title: "Multi-sensor deep-learning mapping of surface and basal fractures across Antarctic ice shelves during the last four decades"
+  authors: "Shahateet, K., Prieur, C., Millan, R., Gimenes, L., Haastrup-Vang, A. S., Roas, J., Izeboud, M., Charrassin, R., Giraldi, E., and Santiard, R."
+  venue: "EGUsphere"
+  year: 2026
+  doi: "10.5194/egusphere-2026-5765"
+  status: preprint
+
+- title: "Ocean-driven reactivation of basal melt and dynamic instability beneath Pine Island Glacier ice shelf since 2018"
+  authors: "Gimenes, L., Millan, R., Barré, J.-B., Clément, A., Andersen, J. K., Bernat, M., Shahateet, K., and Rabatel, A."
+  venue: "EarthArXiv"
+  year: 2026
+  doi: "10.31223/X5WZ1H"
+  status: preprint
+
+- title: "Brief communication: Updated grounding line mapping in the Amundsen Sea Embayment, Antarctica, from one day repeat Sentinel-1 SAR data"
+  authors: "Andersen, J. K., Millan, R., Rignot, E., Gimenes, L., Scheuchl, B., Barré, J. B., and Bjørk, A. A."
+  venue: "The Cryosphere, 20, 1589–1598"
+  year: 2026
+  doi: "10.5194/tc-20-1589-2026"
+
+- title: "Half a century of dynamic instability following the ocean-driven break-up of Wordie Ice Shelf"
+  authors: "Dømgaard, M., Millan, R., Andersen, J. K., et al."
+  venue: "Nature Communications 16, 4016"
+  year: 2025
+  doi: "10.1038/s41467-025-59293-1"

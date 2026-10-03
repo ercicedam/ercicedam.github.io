@@ -1,0 +1,49 @@
+---
+title: "The project"
+---
+
+## Summary
+
+The ice shelves of Antarctica act as giant dams limiting ice flow from the interior into the ocean. Recently, several of these dams have shown dramatic signs of damage. Once the ice is fracturing, the dam is weakened, allowing the ice to flow faster and increasing mass loss from the interior of the ice sheet, which results in an accelerated contribution to sea-level. As Antarctica is the largest reservoir of fresh water, correctly predicting its evolution is crucial to anticipate when and how much sea-level will rise.
+
+Damage is currently absent from projection of Antarctica evolution, because of the difficulty of representing this process in numerical models as well as the lack of observation to constrain them. The aim of the IceDaM project is to quantify and understand the evolution of damage on ice shelves around Antarctica.
+
+My team and I will first use a novel approach based on deep learning to automatically identify the evolution of fractures and their characteristics on satellite imagery. By combining this record with inversions from a high-order ice flow model, we will quantify the links between fractures and changes in ice rigidity, which controls the strength of ice shelves. To better understand the damage variability, we will measure the evolution of key variables that positively impact the rheological weakening of ice shelves. These time series will be analyzed in a unique fashion, to determine the major processes that led to the evolution of damage in the satellite observation era.
+
+Based on these results, we will set up the first sentinel of ice shelves by systematically mapping the evolution of fractures in near real time. This will be used to establish new vulnerability indices, based on changes in ice rigidity and their impact on glacier mass balance. This project will open a new window on the processes affecting ice shelves at an unprecedented level of resolution, ultimately allowing us to improve our ability to predict the fate of sea level rise.
+
+## Objectives
+
+::: {.objectives}
+::: {.objective}
+[Objective 1]{.num}
+
+### Observing fracturing spatio-temporal variability from space and its impact on ice shelf buttressing
+
+[Description to come.]{.todo}
+:::
+::: {.objective}
+[Objective 2]{.num}
+
+### Understanding processes creating and enhancing ice shelf damage
+
+[Description to come.]{.todo}
+:::
+::: {.objective}
+[Objective 3]{.num}
+
+### Using damage as a sentinel for ice shelf vulnerability
+
+[Description to come.]{.todo}
+:::
+:::
+
+## Key facts
+
+|                   |                                              |
+|-------------------|----------------------------------------------|
+| **Funding**       | European Research Council — Starting Grant   |
+| **Principal Investigator** | Romain Millan                       |
+| **Grant agreement** | [to be completed]{.todo}                   |
+| **Duration**      | [to be completed]{.todo}                     |
+| **Host institution** | [to be completed]{.todo}                  |

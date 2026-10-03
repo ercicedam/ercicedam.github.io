@@ -1,0 +1,58 @@
+# One block per person. Fields:
+#   name:  full name
+#   role:  shown under the name
+#   group: section heading (people with the same group are shown together)
+#   image: optional photo, e.g. images/team/romain.jpg (square photos work best)
+#   url:   optional personal web page
+
+- name: Romain Millan
+  role: Principal Investigator
+  group: Principal Investigator
+
+- name: Colin Prieur
+  role: Postdoctoral researcher
+  group: Researchers and engineers
+
+- name: Lucille Gimenes
+  role: PhD student
+  group: Researchers and engineers
+
+- name: Lucas Verdet
+  role: Research engineer
+  group: Researchers and engineers
+
+- name: Lucie Bacchin
+  role: Intern
+  group: Interns and students
+
+- name: Amandine Clément
+  role: Intern
+  group: Interns and students
+
+- name: Andrea Sofie Haastrup-Vang
+  role: Bachelor / Master student
+  group: Interns and students
+
+- name: Emil Giraldi
+  role: Bachelor / Master student
+  group: Interns and students
+
+- name: Romain Santiard
+  role: Bachelor / Master student
+  group: Interns and students
+
+- name: Cyrille Mosbeux
+  role: Collaborator
+  group: Collaborators
+
+- name: Jonas Andersen
+  role: Collaborator
+  group: Collaborators
+
+- name: Kaian Shahateet
+  role: Collaborator
+  group: Collaborators
+
+- name: Jean Baptiste Barré
+  role: Collaborator
+  group: Collaborators

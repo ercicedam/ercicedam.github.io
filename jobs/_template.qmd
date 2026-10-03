@@ -1,0 +1,19 @@
+---
+title: "Postdoctoral position in ..."
+date: 2026-10-03
+description: "Duration, start date, application deadline."
+---
+
+## The position
+
+## Profile
+
+## How to apply
+
+<!--
+To publish a job opening:
+1. Copy this file and name it e.g. 2026-postdoc-modelling.qmd (no underscore at the start).
+2. Edit the content.
+3. Remove the "no open positions" note in jobs/index.qmd.
+When the position is filled, delete the file.
+-->

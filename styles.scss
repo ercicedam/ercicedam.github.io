@@ -1,0 +1,101 @@
+/*-- scss:defaults --*/
+// Colours taken from the IceDaM logo
+$slate:  #425c61;
+$ice:    #cbe4ea;
+$ice-light: #eef6f8;
+$sand:   #ac9c86;
+$coral:  #c9573c;
+
+$primary: $slate;
+$link-color: #2f6f80;
+$body-color: #22303a;
+$navbar-bg: #ffffff;
+$navbar-fg: $slate;
+$navbar-hl: $coral;
+$footer-bg: $slate;
+$footer-fg: #dfe9eb;
+$font-family-sans-serif: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+.navbar { border-bottom: 1px solid #e3ecee; }
+.navbar-brand { font-family: $headings-font-family; font-size: 1.5rem; font-weight: 600; }
+.navbar-brand img { max-height: 40px; }
+
+main.content, #quarto-content main { width: 100%; max-width: 1050px; margin: 0 auto; }
+h1.title { font-size: 2.4rem; }
+h2 { border-bottom: none; margin-top: 2.5rem; color: $slate; }
+.footer a { color: #fff; }
+.nav-footer { font-size: .8rem; line-height: 1.5; padding: 1.5rem 1rem; }
+.nav-footer .nav-footer-center { max-width: 900px; margin: 0 auto; }
+
+/* Home page */
+.hero {
+  background: url("images/hero.jpg") center 30% / cover no-repeat;
+  border-radius: 14px;
+  min-height: 700px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  display: flex; align-items: flex-end;
+  .hero-panel {
+    background: rgba(255, 255, 255, .9);
+    border-radius: 12px;
+    padding: 1.6rem 1.8rem;
+    max-width: 760px;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 1.6rem;
+    box-shadow: 0 6px 24px rgba(20, 40, 50, .18);
+  }
+  .hero-logo { flex: 0 0 150px; img { width: 100%; } p { margin: 0; } }
+  .hero-text { flex: 1 1 320px; }
+  h1 { font-size: 3.2rem; margin: 0; line-height: 1; }
+  .tagline { font-family: $headings-font-family; font-size: 1.4rem; color: $slate; margin: .3rem 0 .8rem; line-height: 1.25; }
+  .lead { font-size: 1rem; }
+}
+@media (max-width: 600px) { .hero { padding: 1rem; min-height: 0; padding-top: 9rem; .hero-logo { flex-basis: 110px; } } }
+.badge-erc {
+  display: inline-block; background: $slate; color: #fff; border-radius: 99px;
+  padding: .15rem .8rem; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; margin-bottom: .8rem;
+}
+.btn-ice {
+  display: inline-block; background: $coral; color: #fff !important; text-decoration: none;
+  padding: .5rem 1.1rem; border-radius: 8px; margin: .3rem .5rem 0 0; font-weight: 600;
+  &:hover { background: darken($coral, 8%); }
+  &.alt { background: #fff; color: $slate !important; border: 1px solid $slate; }
+}
+
+.objectives { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.2rem; margin: 1.2rem 0 2rem; }
+.objective {
+  background: #fff; border: 1px solid #dbe7ea; border-top: 5px solid $slate; border-radius: 10px; padding: 1.2rem;
+  .num { font-family: $headings-font-family; color: $coral; font-size: .95rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+  h3 { font-size: 1.25rem; margin: .3rem 0 .5rem; }
+  p { margin: 0; font-size: .95rem; }
+}
+.todo { color: #8a6a00; background: #fff6d6; border-radius: 4px; padding: 0 .3rem; font-size: .9em; }
+
+/* Team */
+.team-group { margin-bottom: 2rem; }
+.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.2rem; }
+.member {
+  text-align: center; padding: 1rem .6rem; border: 1px solid #dbe7ea; border-radius: 10px; background: #fff;
+  .avatar {
+    width: 96px; height: 96px; border-radius: 50%; margin: 0 auto .7rem; background: $ice; color: $slate;
+    display: flex; align-items: center; justify-content: center; font-family: $headings-font-family; font-size: 2rem; font-weight: 600;
+    object-fit: cover;
+  }
+  .name { font-weight: 600; }
+  .role { font-size: .88rem; color: #5b6b73; }
+}
+
+/* Publications */
+.pub { padding: .9rem 0; border-bottom: 1px solid #e3ecee;
+  .pub-title { font-weight: 600; }
+  .pub-authors, .pub-venue { font-size: .93rem; color: #44545c; }
+  .pub-tag { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; background: $ice; color: $slate; border-radius: 4px; padding: .05rem .4rem; margin-left: .4rem; }
+}
+.pub-year { font-family: $headings-font-family; font-size: 1.4rem; color: $coral; margin-top: 1.6rem; font-weight: 600; }
+
+.empty-note { background: $ice-light; border-radius: 10px; padding: 1.2rem 1.4rem; color: #44545c; }
+.video-wrap { position: relative; padding-bottom: 56.25%; height: 0; margin: 1rem 0;
+  iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 10px; } }

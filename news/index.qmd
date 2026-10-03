@@ -1,0 +1,15 @@
+---
+title: "News"
+listing:
+  contents:
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, image]
+  date-format: "D MMMM YYYY"
+---
+
+::: {.empty-note}
+No news yet — check back soon.
+:::

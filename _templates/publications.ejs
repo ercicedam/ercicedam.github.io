@@ -1,0 +1,17 @@
+```{=html}
+<%
+const years = [];
+for (const item of items) { if (!years.includes(item.year)) years.push(item.year); }
+years.sort((a, b) => b - a);
+%>
+<% for (const y of years) { %>
+<div class="pub-year"><%= y %></div>
+<% for (const item of items.filter(i => i.year === y)) { %>
+<div class="pub">
+<div class="pub-title"><%= item.title %><% if (item.status) { %><span class="pub-tag"><%= item.status %></span><% } %></div>
+<div class="pub-authors"><%= item.authors %></div>
+<div class="pub-venue"><em><%= item.venue %></em><% if (item.doi) { %> · <a href="https://doi.org/<%= item.doi %>">doi:<%= item.doi %></a><% } %></div>
+</div>
+<% } %>
+<% } %>
+```

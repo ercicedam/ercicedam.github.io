@@ -1,0 +1,21 @@
+```{=html}
+<%
+const groups = [];
+for (const item of items) { if (!groups.includes(item.group)) groups.push(item.group); }
+const initials = (n) => n.split(/\s+/).map(w => w[0]).filter(Boolean).slice(0, 1).concat(n.split(/\s+/).slice(-1).map(w => w[0])).join('').toUpperCase();
+%>
+<% for (const g of groups) { %>
+<div class="team-group">
+<h2><%= g %></h2>
+<div class="team-grid">
+<% for (const item of items.filter(i => i.group === g)) { %>
+<div class="member">
+<% if (item.image) { %><img class="avatar" src="<%= item.image %>" alt="<%= item.name %>"><% } else { %><div class="avatar" aria-hidden="true"><%= initials(item.name) %></div><% } %>
+<div class="name"><% if (item.url) { %><a href="<%= item.url %>"><%= item.name %></a><% } else { %><%= item.name %><% } %></div>
+<div class="role"><%= item.role %></div>
+</div>
+<% } %>
+</div>
+</div>
+<% } %>
+```

@@ -1,0 +1,15 @@
+---
+title: "Title of the news item"
+date: 2026-10-03
+description: "One sentence shown in the list of news."
+# image: ../images/my-picture.jpg
+---
+
+Write the text of the news item here.
+
+<!--
+To publish a news item:
+1. Copy this file and name it e.g. 2026-10-03-my-news.qmd (no underscore at the start).
+2. Edit the title, date, description and text.
+3. Remove the "No news yet" note in news/index.qmd.
+-->

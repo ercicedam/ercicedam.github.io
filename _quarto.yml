@@ -1,0 +1,41 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "news/*.qmd"
+    - "jobs/*.qmd"
+
+website:
+  title: "IceDaM"
+  description: "Ice Shelf Damage Characterization and Monitoring around Antarctica — an ERC Starting Grant project."
+  site-url: https://ercicedam.github.io
+  favicon: images/icedam-icon.png
+  navbar:
+    logo: images/icedam-icon.png
+    logo-alt: "IceDaM logo"
+    right:
+      - text: Project
+        href: project.qmd
+      - text: Team
+        href: team.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Media
+        href: media.qmd
+      - text: News
+        href: news/index.qmd
+      - text: Jobs
+        href: jobs/index.qmd
+  page-footer:
+    center: |
+      Funded by the European Union (ERC, IceDaM, grant agreement No. [GRANT NUMBER]). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
+
+      © 2026 IceDaM
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    page-layout: full
+    link-external-newwindow: true
+    lang: en

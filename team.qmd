@@ -1,0 +1,7 @@
+---
+title: "Team"
+listing:
+  contents: team.yml
+  template: _templates/team.ejs
+  page-size: 200
+---

@@ -1,0 +1,15 @@
+---
+title: "Job openings"
+listing:
+  contents:
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+  date-format: "D MMMM YYYY"
+---
+
+::: {.empty-note}
+There are no open positions at the moment.
+:::

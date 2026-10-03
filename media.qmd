@@ -1,0 +1,27 @@
+---
+title: "Media"
+---
+
+::: {.empty-note}
+Animations and videos from the project will appear here.
+:::
+
+<!--
+HOW TO ADD A VIDEO (delete the note above once you have one)
+
+1. A video hosted on YouTube / PeerTube: paste its "embed" address below.
+
+## Title of the video
+
+::: {.video-wrap}
+<iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" allowfullscreen></iframe>
+:::
+
+2. A short animation stored in this repository (put the file in images/):
+
+![Caption of the animation](images/my-animation.gif)
+
+or, for an mp4 file:
+
+{{< video images/my-animation.mp4 >}}
+-->
