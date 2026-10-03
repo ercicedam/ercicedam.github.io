@@ -44,6 +44,6 @@ Based on these results, we will set up the first sentinel of ice shelves by syst
 |-------------------|----------------------------------------------|
 | **Funding**       | European Research Council — Starting Grant   |
 | **Principal Investigator** | Romain Millan                       |
-| **Grant agreement** | [to be completed]{.todo}                   |
-| **Duration**      | [to be completed]{.todo}                     |
-| **Host institution** | [to be completed]{.todo}                  |
+| **Grant agreement** |  n° 101164392                              |
+| **Duration**      | 5 years                                      |
+| **Host institution** | Centre National de la Recherche Scientifique      |
