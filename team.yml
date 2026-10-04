@@ -6,14 +6,17 @@
 #   url:   optional personal web page
 
 - name: Romain Millan
+  image: images/millanr.jpg
   role: Principal Investigator
   group: Principal Investigator
 
 - name: Colin Prieur
+  image: images/prieurco.jpg
   role: Postdoctoral researcher
   group: Researchers and engineers
 
 - name: Lucille Gimenes
+  image: images/gimenesl.png
   role: PhD student
   group: Researchers and engineers
 
@@ -21,11 +24,18 @@
   role: Research engineer
   group: Researchers and engineers
 
+- name: Mondher Chekki
+  image: images/chekkim.jpg
+  role: Scientific computing
+  group: Researchers and engineers
+
 - name: Lucie Bacchin
+  image: images/bacchinl.jpg
   role: Intern
   group: Interns and students
 
 - name: Amandine Clément
+  image: images/clementa.jpg
   role: Intern
   group: Interns and students
 
@@ -42,17 +52,26 @@
   group: Interns and students
 
 - name: Cyrille Mosbeux
+  image: images/mosbeuxc.jpg
   role: Collaborator
   group: Collaborators
 
 - name: Jonas Andersen
+  image: images/andersenj.jpg
   role: Collaborator
   group: Collaborators
 
 - name: Kaian Shahateet
+  image: images/shahateetk.jpg
+  role: Researcher
+  group: Researchers and engineers
+
+- name: Jean Baptiste Barré
+  image: images/barrejb.jpg
   role: Collaborator
   group: Collaborators
 
-- name: Jean Baptiste Barré
+- name: Anders Bjørk
+  image: images/bjorka.jpg
   role: Collaborator
   group: Collaborators
